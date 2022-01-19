@@ -649,8 +649,13 @@ button:hover {
   margin-bottom: 60px;
 }
 .footer-container-right {
+  margin-right: 93px;
   margin-top: 72px;
   margin-bottom: 100px;
+}
+.footer-container-mail {
+  margin-top: 72px;
+  margin-bottom: 94px;
 }
 
 .footer {
