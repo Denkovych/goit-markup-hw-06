@@ -813,15 +813,7 @@ form textarea {
 .modal-form input {
   margin-bottom: 10px;
 }
-/*.modal-form label {
-  width: 25px;
-  height: 14px;
 
-  font-weight: normal;
-  letter-spacing: 0.01em;
-  color: #757575;
-  margin-bottom: 4px;
-}*/
 .modal-form textarea {
   margin-bottom: 20px;
   width: 448px;
