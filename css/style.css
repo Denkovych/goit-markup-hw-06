@@ -908,7 +908,7 @@ label > a {
 
 .checkbox:checked + .checkbox-icon {
   background-size: contain;
-  background-image: url("/images/social/icon-check.svg");
+  background-image: url("images/social/icon-check.svg");
   width: 16px;
   height: 15px;
   background-origin: border-box;
