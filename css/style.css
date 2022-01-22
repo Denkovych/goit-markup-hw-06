@@ -720,6 +720,7 @@ button:hover {
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;
 }
+
 .footer-button {
   cursor: pointer;
   text-align: start;
@@ -811,12 +812,8 @@ form textarea {
   color: #212121;
   margin-bottom: 12px;
 }
-.modal-form input {
-  margin-bottom: 10px;
-}
 
 .modal-form textarea {
-  margin-bottom: 20px;
   width: 448px;
   height: 120px;
   padding-top: 12px;
@@ -864,6 +861,10 @@ form textarea {
 }
 .form-field {
   position: relative;
+  margin-bottom: 10px;
+}
+.form-field-coments {
+  margin-bottom: 25px;
 }
 .form-field > label {
   font-weight: normal;
@@ -876,16 +877,40 @@ form textarea {
 .form-field-icon {
   position: absolute;
   left: 15px;
-  top: 45%;
+  top: 54%;
 }
 label > a {
   color: #2196f3;
 }
 .form-checkbox {
+  display: flex;
+  align-items: center;
+
   font-weight: normal;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
   color: #757575;
   margin-bottom: 30px;
+}
+.checkbox {
+  visibility: hidden;
+  position: absolute;
+}
+.checkbox-icon {
+  display: inline-block;
+  width: 16px;
+  height: 15px;
+  border: 2px solid #212121;
+  margin-right: 8.38px;
+  border-radius: 4px;
+}
+
+.checkbox:checked + .checkbox-icon {
+  background-size: contain;
+  background-image: url("/images/social/icon-check.svg");
+  width: 16px;
+  height: 15px;
+  background-origin: border-box;
+  border: none;
 }
